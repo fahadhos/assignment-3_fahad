@@ -1,139 +1,143 @@
-
-
-
-
-
-
-.banner-text-position{
+.banner-text-position {
     position: relative;
     left: -70%;
     color: #FFF;
-   
-  
+
+
     justify-content: center;
     align-items: center;
     text-align: center;
-    
+
     padding-top: 100px;
-z-index: 1;
+    z-index: 1;
 }
-.bannar-paragraph{
+
+.bannar-paragraph {
 
     color: #FFF;
-text-align: center;
-font-family: Lato;
-font-size: 12px;
-font-style: normal;
-font-weight: 500;
-line-height: 50px;
+    text-align: center;
+    font-family: Lato;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 39px;
+    margin-left: -10%;
 }
-.shopnow-btn{
+
+.shopnow-btn {
     border-radius: 8px;
-background: #F85559;
+    background: #F85559;
 
-display: inline-flex; 
-justify-content: center;
-align-items: center;
-gap: 10px;
-margin-top: 30px;
-border: none;
-/* text color */
-color: #FFF;
-text-align: center;
-font-family: Lato;
-font-size: 13px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 6px;
+    margin-left: -8%;
+    border: none;
+    /* text color */
+    color: #FFF;
+    text-align: center;
+    font-family: Lato;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
 }
 
+.modal-box {
+    min-width: 60vh;
+    max-height: calc(135vh - 5em);
+}
 
 /* modal button design */
-.modal-btn{
+.modal-btn {
 
     position: relative;
     left: -30%;
 }
-.modalbg{
+
+.modalbg {
     border-radius: 8px;
-border: 1px solid #F85559;
- background: transparent;
-justify-content: center;
-align-items: center;
-gap: 10px;
+    border: 1px solid #F85559;
+    background: transparent;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 
 
-color: #F85559;
-text-align: center;
-font-family: Lato;
-font-size: 16px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
+    color: #F85559;
+    text-align: center;
+    font-family: Lato;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
 
-.buynow-btn{
+.buynow-btn {
     border-radius: 8px;
-background: #F85559;
+    background: #F85559;
 
-color: #FFF;
-text-align: center;
-font-family: Lato;
-font-size: 16px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
+    color: #FFF;
+    text-align: center;
+    font-family: Lato;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
 
-.modal-star{
+.modal-star {
 
     position: relative;
     left: 32%;
 }
-.shopall-btn{
-    border-radius: 8px;
-background: #F85559;
 
-color: #FFF;
-text-align: center;
-font-family: Lato;
-font-size: 12px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-z-index: 1;
+.shopall-btn {
+    border-radius: 8px;
+    background: #F85559;
+
+    color: #FFF;
+    text-align: center;
+    font-family: Lato;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    z-index: 1;
 }
 
-.card-star-position{
+.card-star-position {
 
     position: relative;
     top: -70px;
-   
+
 }
 
-.details-btn{
- position: relative;
+.details-btn {
+    position: relative;
     top: -40px;
-border: none;
-background: transparent;
+    border: none;
+    background: transparent;
 
 
-color: #F85559;
-text-align: center;
-font-family: Lato;
-font-size: 12px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
+    color: #F85559;
+    text-align: center;
+    font-family: Lato;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
 
-#fruit-star-position{
+#fruit-star-position {
 
     position: relative;
     top: 39px;
 }
 
-.horizontal{
+.horizontal {
 
     width: 200px;
     /* height: 1px; */
