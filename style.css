@@ -1,0 +1,48 @@
+
+
+
+
+
+
+
+/* modal button design */
+.modal-btn{
+
+    position: relative;
+    left: -30%;
+}
+.modalbg{
+    border-radius: 8px;
+border: 1px solid #F85559;
+ background: transparent;
+justify-content: center;
+align-items: center;
+gap: 10px;
+
+
+color: #F85559;
+text-align: center;
+font-family: Lato;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.buynow-btn{
+    border-radius: 8px;
+background: #F85559;
+
+color: #FFF;
+text-align: center;
+font-family: Lato;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.modal-star{
+
+    position: relative;
+    left: 32%;
+}
