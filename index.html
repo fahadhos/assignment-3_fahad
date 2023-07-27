@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="scroll-smooth md:scroll-auto" style="">
+<html lang="en" class="scroll-smooth md:scroll-auto max-sm:overflow-x-hidden" >
 
 <head>
     <meta charset="UTF-8">
@@ -54,7 +54,7 @@
 
 <!-- ============ Main part coding  ========================================== -->
 
-<body class="font-lato " style=" overflow-x: hidden; ">
+<body class="font-lato max-sm:overflow-x-hidden " style=" overflow-x: hidden;  ">
 
     <!-- === Start  Header section ===== -->
     <header style=" overflow: hidden; " class="container mx-auto">
@@ -158,7 +158,7 @@
 
         <!-- slider show begin code -->
         <div
-            class="items-center justify-center text-center max-sm:h40 max-sm:justify-center max-sm:items-center max-sm:text-center max-sm:relative max-sm:left-6 ">
+            class="items-center justify-center text-center max-sm:h40 max-sm:justify-center max-sm:items-center max-sm:text-center max-sm:relative max-sm:left-0 ">
             <!--   Banner image 1 settings -->
             <div class="w-full carousel h-30 lg:rounded-lg md:rounded-lg max-sm:rounded-xl">
                 <div id="slide1"
@@ -1201,6 +1201,15 @@ height: 417px;
 
                 <!-- icon heading image  -->
                 <section class="bg-white lg:flex ">
+
+                       <!-- middle Image  part for mobile -->
+                       <div class="max-sm:justify-center max-sm:items-center max-sm:text-center max-sm:relative max-sm:left-3 lg:hidden md:hidden ">
+                        <!-- centered image ======================== -->
+                        <img class=" md:items-center md:justify-center" style="border-radius: 8px; width: 404px;
+                        height: 314px; position: relative; top:0px" src="images/whychoose1.png" alt="">
+
+                    </div>
+                    <!-- =========== End of middle image part =============== -->
                     <!-- first part -->
                     <div class="lg:p-5 md:p-9">
                         <!-- dedicated part -->
@@ -1217,7 +1226,7 @@ height: 417px;
                             <div class="inline-block leading-9 text-black">
                                 <h2 class="lg:text-left max-sm:text-center"> Dedicated Team</h2>
                                <!-- horizontal line -->
-                                <hr class="bg-black" style="width: 100px;height: 1.3px; ">
+                                <hr class="bg-black max-sm:relative max-sm:left-20" style="width: 100px;height: 1.5px; ">
                                 <p class="text-xs lg:text-left">
                                     Professional employees are there for you to pick
                                     <br> the most amazing and fresh fruits.
@@ -1242,11 +1251,14 @@ height: 417px;
                                 </button>
 
                             </div>
+                            
+                            
                             <div class="inline-block leading-9 text-black">
-                                <h2 class="text-left text-black"> Fresh is Best</h2>
+                                <h2 class="text-black lg:text-left max-sm:text-center"> Fresh is Best</h2>
 
-                                <hr class="text-black bg-black" style="width: 100px;height: 1.5px;">
-                                <p class="text-xs lg:text-left">
+                               <!-- horizontal line -->
+                               <hr class="bg-black max-sm:relative max-sm:left-20" style="width: 100px;height: 1.5px; ">
+                               <p class="text-xs lg:text-left">
                                     Professional employees are there for you to pick
                                     <br> the most amazing and fresh fruits.
                                 </p>
@@ -1316,10 +1328,10 @@ height: 417px;
 
                             </div>
                             <div class="inline-block leading-9 lg:text-left">
-                                <h2 class="text-black lg:text-left"> Gift Certificates</h2>
+                                <!-- horizontal line -->
+                                <hr class="bg-black max-sm:relative max-sm:left-20" style="width: 100px;height: 1.5px; ">
                                 <!--  -->
-                                <hr class="text-black bg-black lg:text-left" style="width: 100px;height: 1.5px;">
-                                <p class="text-xs lg:text-left">
+                                  <p class="text-xs lg:text-left">
                                     Professional employees are there for you to pick
                                     <br> the most amazing and fresh fruits.
                                 </p>
@@ -1334,7 +1346,7 @@ height: 417px;
 
 
                     <!-- middle Image  part -->
-                    <div class="md:justify-center md:items-center md:text-center md:relative md:left-28">
+                    <div class="md:justify-center md:items-center md:text-center md:relative md:left-28 max-sm:hidden">
                         <!-- centered image ======================== -->
                         <img class=" md:items-center md:justify-center" style="border-radius: 8px; width: 404px;
                         height: 314px; position: relative; top:0px" src="images/whychoose1.png" alt="">
