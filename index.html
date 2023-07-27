@@ -58,23 +58,31 @@
 
     <!-- === Start  Header section ===== -->
     <header style=" overflow: hidden; " class="container mx-auto">
+   
     </header>
 
     <!--==== Start Nav bar sec 1 ========= -->
     <main class="container max-w-screen-xl sm:overflow-x-hidden">
 
 
-        <!-- for mobile device navbar -->
-        <div class="navbar bg-base-100 lg:hidden md:hidden " style="margin-bottom: -90px;">
+        <!--**************************************************
+             for mobile device navbar Mobile version ************************************************** -->
+        <div class="navbar bg-base-100
+        
+        lg:hidden md:hidden "
+         style="margin-bottom: -90px;">
 
 
             <!-- <div class="flex "> -->
             <!-- Start icon + logo text -->
-            <div class=" justify-center items-center " style="position: relative; left: 100px;">
+            <div class=" sm:justify-center items-center "
+             style="position: relative; left: 100px;">
                 <div class="inline-flex justify-center">
                     <img style="width: 54.517px;height: 60px;" class="justify-center" src="images/logo.png" alt="">
 
-                    <p class="font-bold text-black text-xl mt-4 p-0 ml-5">
+                    <p class="font-bold text-black sm:text-xl max-sm:mt-6 max-sm:p-0 max-sm:text-left max-sm:items-start max-sm:relative
+                    max-sm:-left-20
+                    ">
                         Fruit Burst
                     </p>
 
@@ -95,16 +103,23 @@
 
 
         </div>
-        <!-- for laptop and tablet -->
-        <nav class="max-sm:invisible lg:visible   overflow-hidden">
-            <div class="mt-10">
+        <!-- for laptop and tablet navbar design -->
+        <nav class="max-sm:invisible
+         lg:visible
+           overflow-hidden">
+            <div class="lg:mt-10 md:mt-10">
 
             </div>
-            <div class="navbar  rounded-full" style="background-color: rgb(248 85 89);">
+            <div class="navbar  rounded-full 
+            md:w-full 
+            " style="background-color: rgb(248 85 89);">
 
                 <!-- Nav items menus ============================================== -->
                 <div class="flex-none text-cyan-50">
-                    <ul class="menu menu-horizontal px-10">
+                    <ul class="menu menu-horizontal 
+                    lg:text-sm lg:px-10 
+                    md:text-xs md:px-2
+                    ">
                         <li><a>Home</a></li>
                         <li><a> About Us</a></li>
                         <li><a>Shop</a></li>
@@ -112,11 +127,21 @@
                     </ul>
                 </div>
                 <!-- Start icon + logo text -->
-                <div class=" justify-center items-center " style="position: relative; left: 100px;">
+                <div class=" lg:justify-center lg:items-center
+                
+                "
+                 style="position: relative; left: 100px;">
                     <div class="inline-flex justify-center">
-                        <img style="width: 54.517px;height: 60px;" class="justify-center" src="images/logo.png" alt="">
+                        <!-- logo nav -->
+                        <img style="width: 54.517px;height: 60px;" 
+                        class="lg:justify-center lg:relative lg:left-10
+                        md:relative md:-left-20
+                        " src="images/logo.png" alt="">
 
-                        <p class="font-bold text-white text-4xl mt-2 p-0">
+                        <p class="font-bold text-white 
+                        lg:text-4xl lg:mt-2 lg:p-0 lg:relative lg:left-16
+                        md:text-sm md:max-w-sm md:relative md:-left-16
+                        ">
                             Fruit Burst
                         </p>
 
@@ -159,13 +184,27 @@
                     <!-- <div class="hero-content text-center "> -->
                     <div class="banner-text-position ">
                         <!-- <div class="max-w-md"> -->
-                        <h1 style="width: max-content;" class="text-6xl -ml-11 font-bold max-sm:text-xl  ">
+                        <h1 style="width: max-content;" class="
+                        lg:text-6xl lg:-ml-11 font-bold 
+                        sm:text-xl
+                        md:relative md:text-4xl md:-top-20
+                        ">
                             Exotic tastes at your
                             <br> doorstep
                         </h1>
-                        <p class="bannar-paragraph max-sm:text-xs"> We supply highly quality organic products</p>
+                        <p class="bannar-paragraph 
+                        sm:text-xs
+
+                        md:relative md:-top-14
+                        
+                        "> We supply highly quality organic products</p>
+                        <!-- button banner 1 -->
                         <button
-                            class="shopnow-btn btn max-sm:mt-1 max-sm:rounded max-sm:h-1 sm:text-xs max-sm:font-light maxsm:border-1">Shop
+                            class="shopnow-btn btn max-sm:mt-1 
+                            sm:rounded sm:h-1 sm:text-xs max-sm:font-light sm:border-1
+                            md:relative md:-top-11
+                            ">
+                            Shop
                             Now</button>
                         <!-- </div> -->
                     </div>
@@ -184,12 +223,27 @@
                     <!-- <div class="hero-content text-center "> -->
                     <div class="banner-text-position">
                         <!-- <div class="max-w-md"> -->
-                        <h1 style="width: max-content;" class="text-6xl font-bold max-sm:text-xl ">Exotic tastes at your
+                            <h1 style="width: max-content;" class="
+                            lg:text-6xl lg:-ml-11 font-bold 
+                            sm:text-xl
+                            md:relative md:text-4xl md:-top-20
+                            ">
+                         Exotic tastes at your
                             <br> doorstep
                         </h1>
-                        <p class="bannar-paragraph max-sm:text-xs"> We supply highly quality organic products</p>
+                        <p class="bannar-paragraph 
+                        sm:text-xs
+
+                        md:relative md:-top-14
+                        
+                        "> We supply highly quality organic products</p>
+                        <!-- button banner 2 -->
                         <button
-                            class="shopnow-btn btn max-sm:mt-1 max-sm:rounded max-sm:h-1 sm:text-xs max-sm:font-light maxsm:border-1">Shop
+                            class="shopnow-btn btn max-sm:mt-1 
+                            sm:rounded sm:h-1 sm:text-xs max-sm:font-light sm:border-1
+                            md:relative md:-top-11
+                            ">
+                            Shop
                             Now</button>
                         <!-- </div> -->
                     </div>
@@ -203,14 +257,29 @@
                     class="carousel-item relative w-full     bg-slate-700 bg-opacity-70    mix-blend-multiply ">
                     <img src="images/banner3.png" class="w-full  h-30   mix-blend-multiply  " />
                     <!-- <div class="hero-content text-center "> -->
-                    <div class="banner-text-position">
+                        <div class="banner-text-position">
                         <!-- <div class="max-w-md"> -->
-                        <h1 style="width: max-content;" class="text-6xl font-bold max-sm:text-xl ">Exotic tastes at your
+                            <h1 style="width: max-content;" class="
+                            lg:text-6xl lg:-ml-11 font-bold 
+                            sm:text-xl
+                            md:relative md:text-4xl md:-top-20
+                            ">
+                         Exotic tastes at your
                             <br> doorstep
                         </h1>
-                        <p class="bannar-paragraph max-sm:text-xs"> We supply highly quality organic products</p>
+                        <p class="bannar-paragraph 
+                        sm:text-xs
+
+                        md:relative md:-top-14
+                        
+                        "> We supply highly quality organic products</p>
+                        <!-- banner 3 -->
                         <button
-                            class="shopnow-btn btn max-sm:mt-1 max-sm:rounded max-sm:h-1 sm:text-xs max-sm:font-light maxsm:border-1">Shop
+                            class="shopnow-btn btn max-sm:mt-1 
+                            sm:rounded sm:h-1 sm:text-xs max-sm:font-light sm:border-1
+                            md:relative md:-top-11
+                            ">
+                            Shop
                             Now</button>
                         <!-- </div> -->
                     </div>
@@ -227,12 +296,27 @@
                     <!-- <div class="hero-content text-center "> -->
                     <div class="banner-text-position">
                         <!-- <div class="max-w-md"> -->
-                        <h1 style="width: max-content;" class="text-6xl font-bold max-sm:text-xl ">Exotic tastes at your
+                            <h1 style="width: max-content;" class="
+                            lg:text-6xl lg:-ml-11 font-bold 
+                            sm:text-xl
+                            md:relative md:text-4xl md:-top-20
+                            ">
+                            Exotic tastes at your
                             <br> doorstep
                         </h1>
-                        <p class="bannar-paragraph max-sm:text-xs"> We supply highly quality organic products</p>
+                        <p class="bannar-paragraph 
+                        sm:text-xs
+
+                        md:relative md:-top-14
+                        
+                        "> We supply highly quality organic products</p>
+                        <!-- banner 4 -->
                         <button
-                            class="shopnow-btn btn max-sm:mt-1 max-sm:rounded max-sm:h-1 sm:text-xs max-sm:font-light maxsm:border-1">Shop
+                            class="shopnow-btn btn max-sm:mt-1 
+                            sm:rounded sm:h-1 sm:text-xs max-sm:font-light sm:border-1
+                            md:relative md:-top-11
+                            ">
+                            Shop
                             Now</button>
                         <!-- </div> -->
                     </div>
@@ -246,39 +330,49 @@
         </div>
 
 
-        <!-- card section bellow of the banner ===================/========/===========/======================= -->
-        <div style="position: relative; left: 8%; top:-110px " class=" ">
+        <!-- card section bellow of the banner ===================/========/===========/=======================position: relative; left: 8%; top:-110px -->
+        <div style=" "
+         class="
+        lg:relative lg:-top-28 lg:left-24
+        md:relative md:-top-6 md:left-16
+        
+        ">
             <div class="card w-10/12 bg-base-100 shadow-xl inline-flex">
                 <div class="inline-flex  max-sm:hidden">
                     <!-- Red Grapes -->
-                    <div class="card-body">
+                    <div class="card-body ">
                         <figure><img src="images/fruit1.png" alt="Red GrapesFruits" /></figure>
 
-                        <h2 class="card-title items-center justify-center text-xl font-medium">Red Grapes</h2>
+                        <h2 class="card-title items-center justify-center text-xl font-medium 
+                        md:text-sm
+                
+                        ">Red Grapes</h2>
                     </div>
                     <!-- orange  -->
                     <div class="card-body">
                         <figure><img src="images/fruit2.png" alt="OrangeFruits" /></figure>
 
-                        <h2 class="card-title items-center justify-center text-xl font-medium">Orange</h2>
+                        <h2 class="card-title items-center justify-center text-xl font-medium
+                        md:text-sm
+                        ">Orange</h2>
                     </div>
                     <!-- Mango  -->
                     <div class="card-body">
                         <figure><img src="images/fruit3.png" alt="MangoFruits" /></figure>
 
-                        <h2 class="card-title items-center justify-center text-xl font-medium">Mango</h2>
+                        <h2 class="card-title items-center justify-center text-xl font-medium  md:text-sm">Mango</h2>
                     </div>
                     <!-- Strawberry  -->
                     <div class="card-body">
                         <figure><img src="images/fruit4.png" alt="StrawberryFruits" /></figure>
 
-                        <h2 class="card-title items-center justify-center text-xl font-medium">Strawberry</h2>
+                        <h2 class="card-title items-center justify-center text-xl font-medium  md:text-sm">Strawberry</h2>
                     </div>
                     <!-- Pomegranate  -->
                     <div class="card-body">
                         <figure><img src="images/fruit5.png" alt="PomegranateFruits" /></figure>
 
-                        <h2 class="card-title items-center justify-center text-xl font-medium">Pomegranate</h2>
+                        <h2 class="card-title items-center justify-center text-xl font-medium  md:text-sm">Pomegranate</h2>
                     </div>
 
                 </div>
@@ -294,15 +388,16 @@
         <div class="lg:flex lg:justify-around md:inline-block 
         md:justify-center md:items-center md:text-center">
 
-            <div>
-                <h2 class="font-extrabold text-5xl">Deal of the day</h2>
+            <div class="">
+                <h2 class="md:text-center md:items-center md:justify-center md:pl-48 font-extrabold text-5xl">Deal of the day</h2>
                 <br>
-                <p class="font-medium text-base">Contrary to popular belief, is not simply random text. It has roots in
+                <p class="font-medium text-base md:text-center md:items-center md:justify-center md:pl-36 md:text-sm">Contrary to popular belief, is not simply random text. It has roots in
                     a piece of classical <br>
                     Latin literature from 45 BC, making it over 2000 years old.</p>
             </div>
-            <!-- timer section -->
-            <div class="lg:flex  lg:pr-6 md:text-center md:justify-center md:items-center">
+            <!-- timer section here please ghorir design code -->
+            <div class="lg:flex  lg:pr-6 
+            md:text-center md:flex md:justify-center md:items-center md:pl-28">
 
                 <div class="inline-block items-center text-center  pr-4">
                     <h2 class="font-extrabold text-5xl">29</h2>
@@ -347,7 +442,8 @@
 <!-- ================================= -->
 <!-- parent card with button using flex block -->
 <div 
-class=" lg:justify-around lg:w-90 lg:-pl-80 md:justify-right md:items-end md:place-content-center  ">
+class=" lg:justify-around lg:w-90 lg:-pl-80 
+md:justify-right md:items-end md:place-content-center md:pl-48  ">
 
 <!-- cards fruit with details button -->
 <div
@@ -357,8 +453,7 @@ class=" lg:justify-around md:justify-center
  class="lg:items-center  lg:justify-center md:inline-block md:justify-center md:items-center  lg:flex lg:relative lg:left-10 lg:ml-16  ">
 
 <!--===== Start Apple fruit =================== -->
-<!-- <div class="card bg-base-100 shadow-xl  " style="position: relative;left:5px; width: 222px;
-height: 417px;"> -->
+ 
 <div class="card bg-base-100 shadow-xl lg:mr-4
 md:justify-center lg:w-1/4
 md:mb-10 md:w-96  "
@@ -468,9 +563,15 @@ height: 417px;
 <!--========= Start Orange card ======================= -->
 
 
-<div class="card bg-base-100 shadow-xl mr-8  md:mb-10"
- style="position: relative;left:30px; width: 222px;
-height: 417px;">
+<div class="card bg-base-100 shadow-xl lg:mr-4
+md:justify-center lg:w-1/4
+md:mb-10 md:w-96  "
+ style="
+position: relative;
+/* left:30px;  */
+/* width: 222px; */
+height: 417px;
+">
 <figure class="px-10 pt-10">
 <!--                 orange img-============ -->
 <img src="images/fruit7.png" alt="Orange" class="rounded-xl" />
@@ -566,9 +667,15 @@ height: 417px;">
 
 
 <!--===== Start Red Dragon fruit =================== -->
-<div class="card  bg-base-100 shadow-xl mr-8   md:mb-10" 
-style="position: relative;left:20px; width: 222px;
-height: 417px;">
+<div class="card bg-base-100 shadow-xl lg:mr-4
+md:justify-center lg:w-1/4
+md:mb-10 md:w-96  "
+ style="
+position: relative;
+/* left:30px;  */
+/* width: 222px; */
+height: 417px;
+">
 <figure class="px-10 pt-10">
 <img src="images/fruit8.png" alt="Red Dragon" class="rounded-xl" />
 </figure>
@@ -663,8 +770,15 @@ height: 417px;">
 
 
 <!--===== Start Banana fruit =================== -->
-<div class="card  bg-base-100 shadow-xl " style="position: relative;right:-5px; width: 222px;
-height: 417px;">
+<div class="card bg-base-100 shadow-xl lg:mr-4
+md:justify-center lg:w-1/4
+md:mb-10 md:w-96  "
+ style="
+position: relative;
+/* left:30px;  */
+/* width: 222px; */
+height: 417px;
+">
 <figure class="px-10 pt-10">
 <img src="images/fruit9.png" alt="Banana" class="rounded-xl" />
 </figure>
@@ -1114,8 +1228,8 @@ height: 417px;">
         <!-- ===========  End meet the team section  ================== -->
 
         <!-- ===========  Start Why choose us section  ================== -->
-        <section class=" pt-20 pb-20  text-center ">
-            <div class=" min-h-screen  bg-white">
+        <section class=" pt-20 pb-20  lg:text-center ">
+            <div class=" min-h-screen  bg-white md:text-center">
 
                 <h1 class="text-4xl font-bold">Why Choose Us</h1>
                
@@ -1129,11 +1243,11 @@ height: 417px;">
                 </p>
 
                 <!-- icon heading image  -->
-                <section class="flex bg-white     ">
+                <section class="lg:flex bg-white     ">
                     <!-- first part -->
-                    <div class="p-5">
+                    <div class="lg:p-5  md:p-9">
                         <!-- dedicated part -->
-                        <div class=" flex gap-3 ">
+                        <div class=" lg:flex gap-3  md:flex ">
 
                             <div class=" ">
                                 <!-- icon -->
@@ -1260,9 +1374,9 @@ height: 417px;">
 
 
                     <!-- middle Image  part -->
-                    <div class="" >
+                    <div class="md:justify-center md:items-center md:text-center md:relative md:left-28" >
                         <!-- centered image ======================== -->
-                        <img class="" 
+                        <img class=" md:items-center md:justify-center" 
                         style="border-radius: 8px; width: 404px;
                         height: 314px; position: relative; top:0px" 
                         src="images/whychoose1.png" alt="">
@@ -1270,14 +1384,15 @@ height: 417px;">
                     </div>
                     <!-- =========== End of middle image part =============== -->
                     <!--=== third part start ==== -->
-                    <div class="p-5 ">
+                  
+                        <div class="lg:p-5  md:p-20">
                         <!--Integrated Supplier part -->
                         <div class=" flex gap-3 ">
 
                           
                             <div class="  lg:text-right md:text-right inline-block text-black leading-9">
                                 <h2 class=" "> Integrated Supplier</h2>
-                                <hr class="bg-black text-black text-right  ml-40" style="width: 100px;height: 1.2px; ">
+                                <hr class="bg-black text-black text-right  ml-40" style="width: 100px;height: 1.3px; ">
                                 <p class=" text-xs">
                                     Professional employees are there for you to pick
                                     <br> the most amazing and fresh fruits.
